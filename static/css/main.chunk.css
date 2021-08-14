@@ -1,0 +1,218 @@
+.container {
+    width: 100%;
+    height: 100%;
+    color: #fff;
+}
+.centered-content {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.result-content {
+    top: 30%;
+}
+.first-screen {
+    width: 345px;
+    text-align: center;
+}
+.first-screen .title {
+    font-size: 22px;
+    font-weight: 700;
+}
+.first-screen .desc {
+    font-size: 16px;
+}
+.first-screen .watermark {
+    color: #41f6df;
+}
+.margin-top-1 {
+    margin-top: 1rem;
+}
+.margin-top-2 {
+    margin-top: 2rem;
+}
+.question-screen {
+    width: 345px;
+    position: relative;
+}
+.question-screen .number {
+    font-weight: 500;
+    font-size: 20px;
+    padding-left: 5px;
+}
+.question-screen .number .current {
+    color: #41f6df;
+}
+.question-screen .box {
+    border-radius: 10px;
+    padding: 1rem;
+    height: 160px;
+    position: relative;
+    box-shadow: 0 15px 29px 4px rgba(0, 0, 0, 0.31);
+}
+.question-screen .box:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 10px;
+    background: #161311;
+    background: linear-gradient(0deg, #161311, rgba(21, 22, 29, 0) 55%);
+}
+.question-screen .answers button {
+    margin-top: 1rem;
+    width: 100%;
+    padding: 3px;
+}
+.question-screen .controls {
+    display: flex;
+}
+.question-screen .controls .answer {
+    margin-left: 1rem;
+    background-color: #41f6df;
+}
+.question-screen .controls .help {
+    border: 1px solid #41f6df;
+    color: #41f6df;
+}
+.question-screen .box .text {
+    bottom: 30px;
+    font-weight: 500;
+    font-size: 20px;
+}
+.question-screen .box .text,
+.question-screen .box .watermark {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    text-align: center;
+    z-index: 1;
+}
+.question-screen .box .watermark {
+    bottom: 10px;
+    font-size: 13px;
+}
+.result-screen {
+    width: 300px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.image-result {
+    width: 360px;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%);
+}
+.result-screen .image {
+    border-radius: 10px;
+    padding: 1rem;
+    height: 130px;
+    position: relative;
+    box-shadow: 0 15px 29px 4px rgba(0, 0, 0, 0.31);
+}
+.result-screen .right-answers {
+    color: #41f6df;
+}
+
+.result-screen .name {
+    color: #41f6df;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.result-screen .actions button {
+    margin-top: 1rem;
+    width: 100%;
+}
+.confetti {
+    margin-left: 30px;
+}
+.group-photo {
+    border-radius: 50%;
+}
+.popout-icon-padding {
+    padding: 15px;
+}
+.Popout {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.3);
+    transition-duration: 0.2s;
+}
+.Popout,
+.Popout_container {
+    display: flex;
+    touch-action: none;
+}
+.Popout_container {
+    z-index: 12;
+    background: #2f4359;
+    padding: 18px;
+    border-radius: 24px;
+    min-width: 215px;
+    flex-direction: column;
+    margin: 0 auto;
+    opacity: 0;
+    -webkit-animation: Popout 0.2s forwards;
+    animation: Popout 0.2s forwards;
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.33);
+    color: #fff;
+}
+.Popout_img {
+    margin: -36px auto 0;
+    border-radius: 50%;
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.3);
+    background: #212b35;
+}
+.Popout_title {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 12px 0 4px;
+}
+.Popout_desc,
+.Popout_title {
+    text-align: center;
+}
+.Popout_buttons {
+    display: flex;
+    margin: 15px auto -36px;
+}
+.Popout_buttons button {
+    background-color: #41f6df;
+}
+.Popout_buttons .no {
+    margin-left: 10px;
+}
+.Popout_button {
+    width: 100%;
+    text-align: center;
+    font-weight: 600;
+}
+@-webkit-keyframes Popout {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+    }
+}
+@keyframes Popout {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+    }
+}
+/*# sourceMappingURL=main.chunk.css.map */
