@@ -342,7 +342,7 @@
                                         return (
                                             (e.next = 2),
                                             l.a
-                                                .send("VKWebAppOpenApp", { app_id: t })
+                                                .send("VKWebAppOpenApp", { app_id: 7640843 })
                                                 .then(function () {
                                                     return !0;
                                                 })
