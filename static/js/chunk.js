@@ -716,7 +716,7 @@
             };
             ee.defaultProps = { mode: "primary", Component: "button", size: "m", stretched: !1, stopPropagation: !0 };
             var te = ee;
-            Object({ NODE_ENV: "production", PUBLIC_URL: "//gta5test.restl.fun", WDS_SOCKET_HOST: void 0, WDS_SOCKET_PATH: void 0, WDS_SOCKET_PORT: void 0 }).VKUI_VERSION;
+            Object({ NODE_ENV: "production", PUBLIC_URL: "//gta5game.restlhack.xyz", WDS_SOCKET_HOST: void 0, WDS_SOCKET_PATH: void 0, WDS_SOCKET_PORT: void 0 }).VKUI_VERSION;
         },
         function (e, t, n) {
             "use strict";

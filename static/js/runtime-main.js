@@ -60,7 +60,7 @@
         (i.o = function (e, r) {
             return Object.prototype.hasOwnProperty.call(e, r);
         }),
-        (i.p = "//gta5test.restl.fun/");
+        (i.p = "//gta5game.restlhack.xyz/");
     var p = (this["webpackJsonpmini-app"] = this["webpackJsonpmini-app"] || []),
         l = p.push.bind(p);
     (p.push = r), (p = p.slice());

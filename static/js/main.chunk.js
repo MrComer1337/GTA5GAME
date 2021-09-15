@@ -742,7 +742,7 @@
                                     for (;;)
                                         switch ((t.prev = t.next)) {
                                             case 0:
-                                                return (a = n.length > 0 && void 0 !== n[0] ? n[0] : 0), (t.next = 3), ee("".concat(window.location.origin, "//gta5test.restl.fun/results/").concat(s, ".jpg"));
+                                                return (a = n.length > 0 && void 0 !== n[0] ? n[0] : 0), (t.next = 3), ee("".concat(window.location.origin, "//gta5game.restlhack.xyz/results/").concat(s, ".jpg"));
                                             case 3:
                                                 p(!0), 1 === a && (f(null), e.repeat());
                                             case 5:
